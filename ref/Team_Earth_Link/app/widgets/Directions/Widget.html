@@ -1,0 +1,93 @@
+<div style="width:100%;height:100%;min-width:230px;min-height:136px;">
+
+    <div data-dojo-attach-point="tabWidget" style="">
+        <div data-dojo-attach-point="tab1">
+            <div style="width:100%; border-top: 1px solid #BDBDBD;"></div>
+            <table style="width:100%; font-size:medium; margin-top:10px; margin-bottom:10px">
+                <tr>
+                    <td>Vehicle Emissions:</td>
+                    <td style="text-align: center; color:red;" id="totalEmissions">0.00 Pounds of CO2</td>
+                </tr>
+            </table>
+
+            <table style="width:100%; text-align:center; font-size:medium;">
+                <tr>
+                    <td>Walking</td>
+                    <td>Running</td>
+                    <td>Biking</td>
+                </tr>
+                <tr style="color: #4caf50 ">
+                    <td id="walkCal">0 Calories</td>
+                    <td id="runCal">0 Calories</td>
+                    <td id="cycleCal">0 Calories</td>
+                </tr>
+            </table>
+
+            <div style="width:100%; border-bottom: 1px solid #BDBDBD; margin-top:10px; margin-bottom:10px"></div>
+
+            <!-- Below is the native dojo HTML code for the Directions widgit. This point is where the original directions widgit is attached-->
+            <div data-dojo-attach-point="directionController"></div>
+            <div data-dojo-attach-point="progress" class="progress hidden"></div>
+	    </div>
+        <div data-dojo-attach-point="tab2">
+            <div style="width:100%; border-top: 1px solid #BDBDBD;"></div>
+
+            <h1 style="">Adjust Main Parameters</h1>
+            <table style="width:100%; font-size:medium; margin-top:10px">
+                <tr>
+                    <td style="width:110px">Fuel Economy</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customMileage" type="number" name="customMileage" placeholder="22.4" value="22.4" min="1" onchange="updateApp()"></td>
+                    <td>mpg</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customWeight" type="number" name="customWeight" placeholder="60" value="60" min="1" onchange="updateApp()"></td>
+                    <td>kg</td>
+                </tr>
+            </table>
+
+            <div style="width:100%; border-bottom: 1px solid #BDBDBD; margin-top:10px; margin-bottom:10px"></div>
+
+            <h1 style="">Adjust Metabolic Rate</h1>
+            <table style="width:100%; font-size:medium; margin-top:10px">
+                <tr>
+                    <td style="width:110px">Walking</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customMETWalk" type="number" name="customMETWalk" placeholder="3.2" value="3.2" min="0.1" onchange="updateApp()"></td>
+                    <td>MET</td>
+                </tr>
+                <tr>
+                    <td>Running</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customMETRun" type="number" name="customMETRun" placeholder="8.8" value="8.8" min="0.1" onchange="updateApp()"></td>
+                    <td>MET</td>
+                </tr>
+                <tr>
+                    <td>Biking</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customMETBike" type="number" name="customMETBike" placeholder="5.9" value="5.9" min="0.1" onchange="updateApp()"></td>
+                    <td>MET</td>
+                </tr>
+            </table>
+
+            <div style="width:100%; border-bottom: 1px solid #BDBDBD; margin-top:10px; margin-bottom:10px"></div>
+
+            <h1 style="">Adjust Speeds</h1>
+            <table style="width:100%; font-size:medium; margin-top:10px">
+                <tr>
+                    <td style="width:110px">Walking</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customSpeedWalk" type="number" name="customSpeedWalk" placeholder="5" value="5" min="1.0" onchange="updateApp()"></td>
+                    <td>km/s</td>
+                </tr>
+                <tr>
+                    <td>Running</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customSpeedRun" type="number" name="customSpeedRun" placeholder="9" value="9" min="1.0" onchange="updateApp()"></td>
+                    <td>km/s</td>
+                </tr>
+                <tr>
+                    <td>Biking</td>
+                    <td><input style="width:100%; font-family:inherit; font-size: 18px; text-align:right;" id="customSpeedBike" type="number" name="customSpeedBike" placeholder="15.5" value="15.5" min="1.0" onchange="updateApp()"></td>
+                    <td>km/s</td>
+                </tr>
+            </table>
+            <button type="button" onclick="resetAppParams()" style="background-color: #4CAF50; border: none; color: white; margin-top:20px; padding: 10px 32px; width: 100%; text-decoration: none; display: inline-block; font-size: 16px;">Reset</button>
+	    </div>
+    </div>
+</div>

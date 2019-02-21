@@ -1,0 +1,19 @@
+{
+  "showLegend": true,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "EnableOrDisablePopup": true,
+    "MoveupOrMovedown": false,
+    "OpenAttributeTable": false,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "Waterloo_Community_Access_Bikeshare_Stations_9690": {
+      "display": true
+    },
+    "City_of_Waterloo_Bicycle_Parking_4448": {
+      "display": true
+    }
+  }
+}

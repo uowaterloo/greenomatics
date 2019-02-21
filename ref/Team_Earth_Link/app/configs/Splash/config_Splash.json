@@ -1,0 +1,35 @@
+{
+  "splash": {
+    "splashContent": "<div style=\"text-align: center;\"><div><div><font size=\"5\"><b style=\"color: rgb(255, 255, 255);\">Urth-Routes</b></font></div><div><span style=\"color: rgb(255, 255, 255);\"><br /></span></div><div><span style=\"color: rgb(255, 255, 255);\">A navigation app focused on sustainable solutions to transportation by promoting the use of alternate transportation modes to stay healthy and reduce the carbon footprint.</span></div><div><span style=\"color: rgb(255, 255, 255);\"><br /></span></div><div><span style=\"color: rgb(255, 255, 255);\">Instructions:</span></div><div><ol><li style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">Inside the custom Directions widget on the left, input the to/from locations you choose to travel</span></li><li style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">Press the 'Get Directions' button to genereate the route</span></li><li style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">Note the updated estimates for the emissions produced by driving the route, and the calories burned by taking the alternative but sustainable modes of transportation such as walking, running, and biking</span></li><li style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">(Optional) You can go to the customize tab and change the app parameters such as the fuel economy, weight, metabolic rate, or speeds.</span></li></ol></div></div><div style=\"text-align: start;\"><span style=\"color: rgb(255, 255, 255);\"><br /></span></div><div><span style=\"color: rgb(255, 255, 255);\">Made by team Earth Link</span></div><div><span style=\"color: rgb(255, 255, 255);\">From University of Waterloo</span></div><div><span style=\"color: rgb(255, 255, 255);\"><br /></span></div><div><span style=\"color: rgb(255, 255, 255);\">Made for the ECCE Esri App Challenge 2017</span></div></div>",
+    "requireConfirm": false,
+    "confirm": {
+      "text": "",
+      "color": "#ffffff",
+      "transparency": 0
+    },
+    "showOption": true,
+    "confirmEverytime": true,
+    "contentVertical": "middle",
+    "size": {
+      "mode": "percent",
+      "percent": "75%",
+      "wh": {
+        "w": 600,
+        "h": 264
+      }
+    },
+    "background": {
+      "mode": "color",
+      "image": null,
+      "type": "fill",
+      "fileName": "No%20file%20chosen",
+      "color": "#1b5e20",
+      "transparency": 0
+    },
+    "button": {
+      "color": "#518dca",
+      "transparency": 0,
+      "text": "OK"
+    }
+  }
+}
