@@ -1,8 +1,11 @@
 {
-    "title": "SB Admin",
-    "name": "startbootstrap-sb-admin",
-    "version": "5.0.3",
-    "description": "A one page app landing page HTML theme for Bootstrap.",
+    "title": "SB Admin 2",
+    "name": "startbootstrap-sb-admin-2",
+    "version": "4.0.2",
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "description": "An open source Bootstrap 4 admin theme.",
     "keywords": [
         "css",
         "sass",
@@ -13,9 +16,9 @@
         "admin",
         "app"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/sb-admin",
+    "homepage": "https://startbootstrap.com/template-overviews/sb-admin-2",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin/issues",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -25,11 +28,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin.git"
+        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.7.0",
-        "bootstrap": "4.2.1",
+        "@fortawesome/fontawesome-free": "5.7.2",
+        "bootstrap": "4.3.1",
         "chart.js": "2.7.3",
         "datatables.net-bs4": "1.10.19",
         "jquery": "3.3.1",
@@ -37,13 +40,15 @@
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
-        "gulp": "^4.0.0",
-        "gulp-autoprefixer": "^6.0.0",
+        "del": "^3.0.0",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
         "gulp-clean-css": "4.0.0",
         "gulp-header": "2.0.7",
         "gulp-plumber": "^1.2.1",
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.1"
+        "gulp-uglify": "3.0.1",
+        "merge-stream": "^1.0.1"
     }
 }
