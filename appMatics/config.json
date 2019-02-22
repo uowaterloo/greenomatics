@@ -21,7 +21,7 @@
       "mainBackgroundColor": "#005e95"
     }
   },
-  "portalUrl": "http://uwaterloo.maps.arcgis.com",
+  "portalUrl": "http://www.arcgis.com",
   "appId": "G0WgqlA1m6UEJtIs",
   "authorizedCrossOriginDomains": [],
   "title": "Calgary Grocery Stores",
@@ -251,7 +251,7 @@
       }
     },
     "id": "map",
-    "portalUrl": "http://uwaterloo.maps.arcgis.com",
+    "portalUrl": "http://www.arcgis.com",
     "appProxy": {
       "mapItemId": "37fe6689510a4765907dd10b37907f74",
       "proxyItems": []
