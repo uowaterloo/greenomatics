@@ -478,7 +478,7 @@
     "url": "https://utility.arcgis.com/usrsvcs/appservices/ZQuT9YskARNFwgzp/rest/services/World/Route/NAServer/Route_World/solve",
     "rules": [{
 
-  "urlPrefix" : "https://uowaterloo.github.io/greenomatics/appMatics/index.html",
+  "urlPrefix" : "https://uowaterloo.github.io/greenomatics/appMatics/",
 
   "proxyUrl" : "https://utility.arcgis.com/usrsvcs/appservices/ZQuT9YskARNFwgzp/rest/services/World/Route/NAServer/Route_World/solve"
 
