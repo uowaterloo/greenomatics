@@ -476,10 +476,7 @@
     "useProxy": true,
     "alwaysUseProxy": false,
     "url": "",
-    "rules": [{
-			"urlPrefix": "",
-			"proxyUrl": ""
-		}]
+    "rules": []
   },
   "dataSource": {
     "dataSources": {},
