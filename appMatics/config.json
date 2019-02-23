@@ -475,8 +475,14 @@
   "httpProxy": {
     "useProxy": true,
     "alwaysUseProxy": false,
-    "url": "https://utility.arcgis.com/usrsvcs/servers/7f18aec60c574c7abe27560051ec0d8b/rest/services/World/Route/NAServer/Route_World",
-    "rules": []
+    "url": "https://utility.arcgis.com/usrsvcs/appservices/ZQuT9YskARNFwgzp/rest/services/World/Route/NAServer/Route_World/solve",
+    "rules": [{
+
+  "urlPrefix" : "https://uowaterloo.github.io/greenomatics/appMatics/index.html",
+
+  "proxyUrl" : "https://utility.arcgis.com/usrsvcs/appservices/ZQuT9YskARNFwgzp/rest/services/World/Route/NAServer/Route_World/solve"
+
+  }]
   },
   "dataSource": {
     "dataSources": {},
