@@ -474,13 +474,13 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "alwaysUseProxy": false,
-    "url": "https://utility.arcgis.com/usrsvcs/appservices/K2rk3kQ55k3KJC29/rest/services/World/Route/NAServer/Route_World/solve/",
+    "alwaysUseProxy": true,
+    "url": "https://utility.arcgis.com/usrsvcs/appservices/K2rk3kQ55k3KJC29/rest/services/World/Route/NAServer/Route_World/solve",
     "rules": [{
 
   "urlPrefix" : "https://uowaterloo.github.io/greenomatics/appMatics/",
 
-  "proxyUrl" : "https://utility.arcgis.com/usrsvcs/appservices/K2rk3kQ55k3KJC29/rest/services/World/Route/NAServer/Route_World/solve/"
+  "proxyUrl" : "https://utility.arcgis.com/usrsvcs/appservices/K2rk3kQ55k3KJC29/rest/services/World/Route/NAServer/Route_World/solve"
 
   }]
   },
